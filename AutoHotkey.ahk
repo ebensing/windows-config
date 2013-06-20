@@ -42,6 +42,16 @@ return
 Send {Media_Stop}
 return
 
++F12:: 
+SoundSet +3 
+SoundSet, +3, wave 
+return 
+
++F11:: 
+SoundSet -3 
+SoundSet, -3, wave 
+return 
+
 
 ; Note: From now on whenever you run AutoHotkey directly, this script
 ; will be loaded.  So feel free to customize it to suit your needs.
